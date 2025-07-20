@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PedidosYa</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header class="nav_bar">
+        <div class="logo">
+            <img src="img/logo.jpg" alt="PedidosYa_logo">
+        </div>
+        <div class="location">
+            <p>Enviar a</p>
+            <select name="" id="">
+                <option value="">San Salvador</option>
+            </select>
+        </div>
+        <div class="search_bar">
+            <input type="text" placeholder="Buscar locales">
+            <button type="submit">🔎</button>
+        </div>
+        <div class="profile">
+            <a href="help_and_sign_in.html">
+                <img src="img/profile_icon.jpg" alt="profile_icon">Mi Perfil
+            </a>
+        </div>
+    </header>
+
+    <hr>
+    <br><br>
+
+    <main class="main_content">
+        <div class="categories">
+
+            <div class="categories_header">
+                <h3>Hola. ¿Qué vas a pedir hoy?</h3>
+
+                <div class="categories_buttons">
+                    <button class="categories_btn_left" onclick="scrollCategories(-1)">←</button>
+                    <button class="categories_btn_right" onclick="scrollCategories(1)">→</button>
+                </div>
+            </div>
+
+            <div class="categories_list">
+                <a href="categories.html"><img src="img/categories/restaurants_category.jpg" alt=""></a>
+                <a href="categories.html"><img src="img/categories/pedidosya_market_category.jpg" alt=""></a>
+                <a href="categories.html"><img src="img/categories/markets_category.jpg" alt=""></a>
+                <a href="categories.html"><img src="img/categories/cafe_categoty.jpg" alt=""></a>
+                <a href="categories.html"><img src="img/categories/health_category.jpg" alt=""></a>
+                <a href="categories.html"><img src="img/categories/drinks_category.jpg" alt=""></a>
+                <a href="categories.html"><img src="img/categories/shops_category.jpg" alt=""></a>
+                <a href="categories.html"><img src="img/categories/pets_category.jpg" alt=""></a>
+            </div>
+        </div>
+
+        <div class="suggestions">
+
+            <div class="suggestions_header">
+                <h3>Te sugerimos</h3>
+
+                <div class="suggestions_buttons">
+                    <button class="suggestions_btn_left" onclick="scrollCategories(-1)">←</button>
+                    <button class="suggestions_btn_left" onclick="scrollCategories(1)">→</button>
+                </div>
+            </div>
+
+            <div class="suggestions_list">
+                <a href="suggestions.html"><img src="img/suggestions/suggestions_mcdonalds.jpg" alt=""></a>
+                <a href="suggestions.html"><img src="img/suggestions/suggestions_gogreen.jpg" alt=""></a>
+                <a href="suggestions.html"><img src="img/suggestions/suggestions_sanmartin.jpg" alt=""></a>
+                <a href="suggestions.html"><img src="img/suggestions/suggestions_carnitasmamachuz.jpg" alt=""></a>
+                <a href="suggestions.html"><img src="img/suggestions/suggestions_bobaluba.jpg" alt=""></a>
+                <a href="suggestions.html"><img src="img/suggestions/suggestions_carnitasmamachuzmejicanos.jpg" alt=""></a>
+                <a href="suggestions.html"><img src="img/suggestions/suggestions_chinawok.jpg" alt=""></a>
+                <a href="suggestions.html"><img src="img/suggestions/suggestions_taquerialospotrillos.jpg" alt=""></a>
+                <a href="suggestions.html"><img src="img/suggestions/suggestions_lacalaca.jpg" alt=""></a>
+                <a href="suggestions.html"><img src="img/suggestions/suggestions_tipicos.jpg" alt=""></a>
+                <a href="suggestions.html"><img src="img/suggestions/suggestions_wendys.jpg" alt=""></a>
+                <a href="suggestions.html"><img src="img/suggestions/suggestions_tacobell.jpg" alt=""></a>
+                <a href="suggestions.html"><img src="img/suggestions/suggestions_starbucks.jpg" alt=""></a>
+                <a href="suggestions.html"><img src="img/suggestions/suggestions_lacreperia.jpg" alt=""></a>
+                <a href="suggestions.html"><img src="img/suggestions/suggestions_kfc.jpg" alt=""></a>
+            </div>
+        </div>
+    
+        <div class="promotions">
+
+            <div class="promotions_header">
+                <h3>No te pierdas de estas promociones</h3>
+
+                <div class="promotions_buttons">
+                    <button class="promotions_btn_left" onclick="scrollCategories(-1)">←</button>
+                    <button class="promotions_btn_right" onclick="scrollCategories(1)">→</button>
+                </div>
+            </div>
+
+            <div class="promotions_list">
+                <a href="promotions.html"><img src="img/promotions/promotions_restaurants.jpg" alt=""></a>
+                <a href="promotions.html"><img src="img/promotions/promotions_payingmethods.jpg" alt=""></a>
+                <a href="promotions.html"><img src="img/promotions/promotions_markets.jpg" alt=""></a>
+            </div>
+        </div>
+
+        <div class="discounts">
+
+            <div class="discounts_header">
+                <h3>Aprovecha estos descuentos</h3>
+
+                <div class="discounts_buttons">
+                    <button class="discounts_btn_left" onclick="scrollCategories(-1)">←</button>
+                    <button class="discounts_btn_right" onclick="scrollCategories(1)">→</button>
+                </div>
+            </div>
+
+            <div class="discounts_list">
+                <a href="discounts.html"><img src="img/discounts/discounts_dominospizza.jpg" alt=""></a>
+                <a href="discounts.html"><img src="img/discounts/discount_pavitocriollo.jpg" alt=""></a>
+                <a href="discounts.html"><img src="img/discounts/discounts_elbendito.jpg" alt=""></a>
+                <a href="discounts.html"><img src="img/discounts/discounts_donpollo.png" alt=""></a>
+                <a href="discounts.html"><img src="img/discounts/discounts_casakuku.jpg" alt=""></a>
+                <a href="discounts.html"><img src="img/discounts/discounts_pollocampero.jpg" alt=""></a>
+                <a href="discounts.html"><img src="img/discounts/discounts_lecafe.jpg" alt=""></a>
+            </div>
+        </div>
+
+        <div class="sameprice">
+
+            <div class="sameprice_header">
+                <h3>Mismo precio que en local</h3>
+
+                <div class="sameprice_buttons">
+                    <button class="sameprice_btn_left" onclick="scrollCategories(-1)">←</button>
+                    <button class="sameprice_btn_right" onclick="scrollCategories(1)">→</button>
+                </div>
+            </div>
+
+            <div class="sameprice_list">
+                <a href="sameprice.html"><img src="img/sameprice/sameprice_andianbakery.jpg" alt=""></a>
+                <a href="sameprice.html"><img src="img/sameprice/sameprice_quiznos.jpg" alt=""></a>
+                <a href="sameprice.html"><img src="img/sameprice/sameprice_frutastic.jpg" alt=""></a>
+                <a href="sameprice.html"><img src="img/sameprice/sameprice_lastortasdelgordo.jpg" alt=""></a>
+                <a href="sameprice.html"><img src="img/sameprice/sameprice_pizzanova.jpg" alt=""></a>
+            </div>
+        </div>
+
+        <div class="most-requesteds">
+
+            <div class="most-requesteds_header">
+                <h3>Mismo precio que en local</h3>
+
+                <div class="most-requesteds_buttons">
+                    <button class="sameprice_btn_left" onclick="scrollCategories(-1)">←</button>
+                    <button class="sameprice_btn_right" onclick="scrollCategories(1)">→</button>
+                </div>
+            </div>
+
+            <div class="most-requesteds_list">
+                <a href="most-requested.html"><img src="img/most-requested/most-requesteds_dominospizza.jpg" alt=""></a>
+                <a href="most-requested.html"><img src="img/most-requested/most-requesteds_pollocampero.jpg" alt=""></a>
+                <a href="most-requested.html"><img src="img/most-requested/most-requesteds_tortaselchongui.jpg" alt=""></a>
+                <a href="most-requested.html"><img src="img/most-requested/most-requesteds_pollocampestre.jpg" alt=""></a>
+                <a href="most-requested.html"><img src="img/most-requested/most-requesteds_latecleña.jpg" alt=""></a>
+            </div>
+        </div>
+
+        <div class="best-restaurants">
+
+            <div class="best-restaurants_header">
+                <h3>Los mejores restaurantes</h3>
+
+                <div class="best-restaurants_buttons">
+                    <button class="sameprice_btn_left" onclick="scrollCategories(-1)">←</button>
+                    <button class="sameprice_btn_right" onclick="scrollCategories(1)">→</button>
+                </div>
+            </div>
+
+            <div class="best-restaurants_list">
+                <a href="best-restaurants.html"><img src="img/best-restaurants/best-restaurants_layucaloca.jpg" alt=""></a>
+                <a href="best-restaurants.html"><img src="img/best-restaurants/best-restaurants_zomos.jpg" alt=""></a>
+                <a href="best-restaurants.html"><img src="img/best-restaurants/best-restaurants_lebistrocafe.jpg" alt=""></a>
+                <a href="best-restaurants.html"><img src="img/best-restaurants/best-restaurants_pizzerianovizzima.jpg" alt=""></a>
+                <a href="best-restaurants.html"><img src="img/best-restaurants/best-restaurants_lianosbakeshop.jpg" alt=""></a>
+            </div>
+        </div>
+
+        <div class="trusted-markets">
+
+            <div class="trusted-markets_header">
+                <h3>Mercados de confianza</h3>
+
+                <div class="trusted-markets_buttons">
+                    <button class="sameprice_btn_left" onclick="scrollCategories(-1)">←</button>
+                    <button class="sameprice_btn_right" onclick="scrollCategories(1)">→</button>
+                </div>
+            </div>
+
+            <div class="trusted-markets_list">
+                <a href="trusted-markets.html"><img src="img/trusted-markets/trusted-markets_supertiendasalvadoreña.jpg" alt=""></a>
+                <a href="trusted-markets.html"><img src="img/trusted-markets/trusted-markets_tumercadito.jpg" alt=""></a>
+                <a href="trusted-markets.html"><img src="img/trusted-markets/trusted-markets_supertiendaamazonas.jpg" alt=""></a>
+                <a href="trusted-markets.html"><img src="img/trusted-markets/trusted-markets_ampm.jpg" alt=""></a>
+                <a href="trusted-markets.html"><img src="img/trusted-markets/trusted-markets_superea.jpg" alt=""></a>
+            </div>
+        </div>
+
+        <div class="trusted-markets">
+
+            <div class="best-prices_header">
+                <h3>Restaurantes con el mejor precio</h3>
+
+                <div class="best-prices_buttons">
+                    <button class="sameprice_btn_left" onclick="scrollCategories(-1)">←</button>
+                    <button class="sameprice_btn_right" onclick="scrollCategories(1)">→</button>
+                </div>
+            </div>
+
+            <div class="best-prices_list">
+                <a href="best-prices.html"><img src="img/best-prices/best-prices_erickburger.jpg" alt=""></a>
+                <a href="best-prices.html"><img src="img/best-prices/best-prices_pupuserialucy.jpg" alt=""></a>
+                <a href="best-prices.html"><img src="img/best-prices/best-prices_tipicosmamayoya.jpg" alt=""></a>
+                <a href="best-prices.html"><img src="img/best-prices/best-prices_pupuseriachely.jpg" alt=""></a>
+                <a href="best-prices.html"><img src="img/best-prices/best-prices_chilaterialosmorritos.jpg" alt=""></a>
+            </div>
+        </div>
+
+        <div class="home-purchases">
+
+            <div class="home-purchases_header">
+                <h3>Tus compras desde casa</h3>
+
+                <div class="home-purchases_buttons">
+                    <button class="sameprice_btn_left" onclick="scrollCategories(-1)">←</button>
+                    <button class="sameprice_btn_right" onclick="scrollCategories(1)">→</button>
+                </div>
+            </div>
+
+            <div class="home-purchases_list1">
+                <a href="home-purchases.html"><img src="img/home-purchases/home-purchases_lacteoslavaquita.jpg" alt=""></a>
+                <a href="home-purchases.html"><img src="img/home-purchases/home-purchases_smarket.jpg" alt=""></a>
+                <a href="home-purchases.html"><img src="img/home-purchases/home-purchases_foodmartdistrict.jpg" alt=""></a>
+            </div>
+            <div class="home-purchases_list2">
+                <a href="home-purchases.html"><img src="img/home-purchases/home-purchases_kip.jpg" alt=""></a>
+                <a href="home-purchases.html"><img src="img/home-purchases/home-purchases_vaporeselsalvador.jpg" alt=""></a>
+                <a href="home-purchases.html"><img src="img/home-purchases/home-purchases_merkadito.jpg" alt=""></a>
+            </div>
+        </div>
+
+        <br>
+
+        <article class="main_footer">
+            <img src="img/person.jpg" alt="">
+            <div class="rectangle">
+                <div class="top-cities">
+                    <img class="top-cities_img" src="img/top-cities.jpg" alt="">
+                    <div class="top-cities_text">
+                        <p class="top-cities_p">Top Ciudades</p>
+                        <p class="top-cities_links">
+                            <a href="top-cities.html">San Salvador</a>,
+                            <a href="top-cities.html">La Libertad</a>,
+                            <a href="top-cities.html">San Miguel</a>,
+                            <a href="top-cities.html">Santa Ana</a>,
+                            <a href="top-cities.html">Soyapango - San Salvador</a>,
+                            <a href="top-cities.html">Lourdes</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="top-food">
+                    <div class="top-food_img-container">
+                        <img class="top-food_img" src="img/top-food.jpg" alt="">
+                    </div>
+                    <div class="top-food_text">
+                        <p class="top-food_p">Top Comida</p>
+                        <p class="top-food_links">
+                            <a href="top-food.html">Comida Mexicana</a>,
+                            <a href="top-food.html">Postres</a>,
+                            <a href="top-food.html">Pizzas</a>,
+                            <a href="top-food.html">Pollo</a>,
+                            <a href="top-food.html">Hamburguesas</a>,
+                            <a href="top-food.html">Cafeteria</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <br><br><br><br><br><br>
+
+    <section class="delivery-info-section">
+        <div class="info-container">
+            <div class="text-column">
+                <h2>Todo lo que necesites, ¡te lo llevamos!</h2>
+                <p>En PedidosYa puedes dejar volar tu imaginación porque ahora todo lo que quieras lo llevamos directo desde tu cabeza a donde estés, ¡en minutos!</p>
+                <p>¿Lo quieres? ¡Lo tienen! Pide a los mejores restaurantes, haz el pedido del súper, compra la comida para tu mascota, la bebida para los amigos, pide lo que necesites de la farmacia y ¡mucho más!</p>
+                <p>En simples pasos puedes tener lo que quieras directamente en tu puerta: descubre, pide y recibe a domicilio con PedidosYa.</p>
+            </div>
+            <div class="image-column">
+                <img src="img/cakes.jpg" alt="Pastel de Red Velvet y Cheesecake">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <ul>
+                    <li><a href="about-us.html">Sobre PedidosYa</a></li>
+                    <li><a href="about-us.html">Términos y Condiciones</a></li>
+                    <li><a href="about-us.html">Privacidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <ul>
+                    <li><a href="top-food.html">Top comidas</a></li>
+                    <li><a href="best-restaurants.html">Top cadenas</a></li>
+                    <li><a href="top-cities.html">Top ciudades</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <ul>
+                    <li><a href="your-business.html">Registra tu negocio</a></li>
+                    <li><a href="your-business.html">Centro de Socios</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <ul>
+                    <li><a href="colaborations.html">PedidosYa para tus colaboradores</a></li>
+                </ul>
+                </div>
+        </div>
+        <div class="footer-bottom">
+            <p>PedidosYa ® 2010-2025</p>
+        </div>
+    </footer>
+</body>
+</html>
